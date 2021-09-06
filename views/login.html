@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Mercado Libre</title>
+</head>
+
+<body class="section">
+    <header class="header header--color">
+        <div class="header__main">
+            <a class="header__logo" href="/">
+                <img src="/images/logo-mercado-liebre.svg" alt="Main logo">
+            </a>
+            <div class="header__search-bar">
+                <form class="header__input" action="" method="GET">
+                    <input class="header__input-box" type="text" name="nameOfProduct" placeholder="Buscar productos, marcas y más">
+                </form>
+                <div class="header__search-submit"><i class="fa fa-search"></i></div>
+            </div>
+            <p class="header__title"><i class="fas fa-hand-holding-usd"></i><b>Comprá en cuotas y sin tarjeta de crédito</b>
+            </p>
+        </div>
+
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li><a class="header__link header__link--color" href="">Ofertas</a></li>
+                <li><a class="header__link header__link--color" href="">Tiendas Virtuales</a></li>
+                <li><a class="header__link header__link--color" href="">Vender</a></li>
+                <li><a class="header__link header__link--color" href="">Ayuda</a></li>
+            </ul>
+            <ul class="header__list">
+                <li><a class="header__link header__link--color" href="/register">Creá tu cuenta <i
+                            class="far fa-id-card"></i></a></li>
+                <li><a class="header__link header__link--color" href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+                </li>
+                <li><a class="header__link header__link--color" href="#">Mis compras <i
+                            class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        <a href="#" class="header__hamburger-menu">
+            <i class="fa fa-bars burger header__hamburger-menu-item header__hamburger-menu-item--color"></i>
+        </a>
+    </header>
+
+    <section class="register">
+
+        <form action="" method="POST">
+            <h1 class="register__title">¡Hola! Ingresa tu e‑mail o usuario</h1>
+            <div class="register__user-info">
+                <div class="register__field">
+                    <label class="register__label">Nombre</label>
+                    <input class="register__input" type="text" name="firstName" required>
+                </div>
+                <div class="register__field">
+                    <label class="register__label">Contraseña</label>
+                    <input class="register__input" type="password" name="lasttName" required>
+                </div>
+            </div>
+            <div class="register__buttons">
+                <input class="register__button-send register__button--hover" type="submit" value="Continuar" />
+            </div>
+
+        </form>
+    </section>
+
+</body>
+
+</html>

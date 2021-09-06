@@ -1,0 +1,12 @@
+@import url('generic.css');
+@import url('header.css');
+@import url('register.css');
+@media (min-width: 769px) {
+    .register__user-info {
+        display: flex;
+    }
+    .register__field {
+        width: 100%;
+        margin-left: 15px;
+    }
+}
