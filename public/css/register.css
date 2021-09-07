@@ -106,6 +106,7 @@
 .register__user-hobbies {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .register__option {
@@ -163,6 +164,9 @@
         max-width: 600px;
         position: relative;
         top: 18vh;
+    }
+    .register__user-hobbies {
+        flex-direction: row;
     }
     .register__user-info {
         display: flex;
