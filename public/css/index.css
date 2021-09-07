@@ -99,6 +99,7 @@
     }
     .product__description {
         height: 100%;
+        flex-direction: column;
     }
     .product__description-name {
         display: block;
@@ -114,6 +115,10 @@
     }
     .footer {
         display: flex;
+    }
+    .product__description {
+        height: 100%;
+        flex-direction: row;
     }
     .product__description-name {
         display: none;
