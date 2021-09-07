@@ -74,6 +74,7 @@
     position: relative;
     box-shadow: 0 0 12px rgba(0, 0, 0, .15);
     transition: all 120ms;
+    z-index: -1;
 }
 
 .register__upload:hover {
