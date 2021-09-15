@@ -186,4 +186,7 @@
     .register__input {
         padding: 1.5px;
     }
+    .register__upload {
+        z-index: 10;
+    }
 }
